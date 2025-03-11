@@ -73,13 +73,13 @@ const D3ScatterPlot = () => {
       .append("circle")
       .attr("cx", d => xScale(d.x))
       .attr("cy", d => yScale(d.y))
-      .attr("r", 4)  // Slightly larger points
+      .attr("r", 3)
       .attr("fill", "#69b3a2")
       .attr("opacity", 0.8)
       .on("mouseover", (event, d) => {
         tooltip.transition().duration(200).style("opacity", 1);
         tooltip.html(`GPA: ${d.x.toFixed(2)}<br/>Salary: $${d.y}`)
-          .style("left", `${event.pageX + 5}px`)
+          .style("left", `${event.pageX + 20}px`)
           .style("top", `${event.pageY - 28}px`);
       })
       .on("mouseout", () => {
