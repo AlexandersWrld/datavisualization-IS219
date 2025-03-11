@@ -1,13 +1,18 @@
 import React from 'react';
-import D3TimeSeriesChart from './D3TimeSeriesChart';
-import D3BarChart from './D3BarChart';
 import D3ScatterPlot from './D3ScatterPlot';
+import GroupedBarChart from './GroupedBarChart';
+import GroupedBarChart2 from './GroupedBarChart2';
+
+import './App.css';
 
 function App() {
+
   return (
     <div className="App">
-      <D3BarChart />
-      <D3ScatterPlot /> 
+      <D3ScatterPlot />
+      <br></br>
+      <GroupedBarChart />
+      <GroupedBarChart2 />
     </div>
   );
 }
