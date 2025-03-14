@@ -11,6 +11,18 @@ function App() {
   return (
     <div className="App">
 
+    <div className="titleblock">
+    <h2>How do the choices made in one's academic journey impact their career outcomes?</h2>
+    <p>In the age of information, the professional landscape has seen much change in the way skills and knowledge are passed on. 
+      <br></br>
+      In many fields, especially those centered around technology, education is no longer the only ticket in to the professional world. 
+      <br></br>
+      There are many who believe academia to be optional for entry. In my project, I seek to take an objective look at the data 
+      and come 
+      <br></br>
+      to a conclusion on whether or not school is the be-all, end-all for career sucess.</p>
+      </div>
+      
       <div className="scatterplot">
       <D3ScatterPlot />
       <br></br>
@@ -21,6 +33,7 @@ function App() {
       There appears to be no correlation between either variable, with statistical outliers at every level.</p>
       </div>
 
+
       <div className="stackedbar">
       <StackedBarChart />
       <p> The above figure shows a stacked bar chart which displays the total number of graduates in the data set, grouped by salary range and divided by Major.
@@ -28,8 +41,13 @@ function App() {
       This was done with the intention of trying to determine which fields of study were most lucrative to pursue.</p>
       </div>
 
-      <br></br>
+      
+      <div className="groupedbar">
       <GroupedBarChart2 />
+      <p> The above figure shows a grouped bar chart which displays the modal number of job offers graduates received compared to the number of internships completed.
+      <br></br>
+      The graduates were grouped according to their majors in order to give a more objective look at each field of study.</p>
+      </div>
       
     </div>
   );

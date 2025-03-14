@@ -159,8 +159,8 @@ const GroupedBarChart2 = ({ csvData }) => {
 
   return (
     <div>
-      <h3>Figure 3: A Grouped Bar Chart Showing the Modal No. of Job Offers received by Major & No. of Internships Completed</h3>
-      <svg ref={svgRef}></svg>
+      <h3>Figure 3: A Grouped Bar Chart Showing the Modal No. of Job Offers against & No. of Internships Completed</h3>
+      <svg ref={svgRef} style={{ width: "100%", maxWidth: "1000px", height: "100%", border: "1px solid #ccc", background: "#fff"}}></svg>
     </div>
   );
 };

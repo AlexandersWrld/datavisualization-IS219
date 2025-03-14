@@ -1,24 +1,36 @@
 .App {
   text-align: center;
   justify-content: center;
-  padding: 2%;
   font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .App p {
   line-height: 200%;
 }
 
+.titleblock {
+  padding-bottom: 1%;
+  padding-top: 3%;
+  background-color: #f5fcfb;
+}
+
 .scatterplot {
-  padding-bottom: 5%;
-  padding-top: 5%;
+  padding-bottom: 3%;
+  padding-top: 1%;
   background-color: #f5fcfb;
 }
 
 .stackedbar {
+  padding-bottom: 3%;
+  padding-top: 3%;
+  background-color:#fff;
+}
+
+.groupedbar {
   padding-bottom: 5%;
   padding-top: 5%;
-  background-color: #fff;
+  background-color: #f5fcfb;
 }
 
 .App-logo {
