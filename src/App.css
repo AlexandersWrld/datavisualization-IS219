@@ -2,6 +2,23 @@
   text-align: center;
   justify-content: center;
   padding: 2%;
+  font-size: larger;
+}
+
+.App p {
+  line-height: 200%;
+}
+
+.scatterplot {
+  padding-bottom: 5%;
+  padding-top: 5%;
+  background-color: #f5fcfb;
+}
+
+.stackedbar {
+  padding-bottom: 5%;
+  padding-top: 5%;
+  background-color: #fff;
 }
 
 .App-logo {

@@ -73,7 +73,7 @@ const D3ScatterPlot = () => {
       .append("circle")
       .attr("cx", d => xScale(d.x))
       .attr("cy", d => yScale(d.y))
-      .attr("r", 3)
+      .attr("r", 2.5)
       .attr("fill", "#69b3a2")
       .attr("opacity", 0.8)
       .on("mouseover", (event, d) => {
@@ -92,7 +92,7 @@ const D3ScatterPlot = () => {
     <div>
       <h3>Figure 1: A Scatterplot Showing Starting Salaries Compared to Participants' College GPA</h3>
       {data ? (
-        <svg ref={svgRef} style={{ width: "100%", maxWidth: "1200px", height: "800px", border: "1px solid #ccc" }} />
+        <svg ref={svgRef} style={{ width: "100%", maxWidth: "1200px", height: "800px", border: "1px solid #ccc", background: "#fff"}} />
       ) : (
         <p>Loading data...</p>
       )}
