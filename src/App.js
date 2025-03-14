@@ -38,7 +38,9 @@ function App() {
       <StackedBarChart />
       <p> The above figure shows a stacked bar chart which displays the total number of graduates in the data set, grouped by salary range and divided by Major.
       <br></br>
-      This was done with the intention of trying to determine which fields of study were most lucrative to pursue.</p>
+      This was done with the intention of trying to determine which fields of study were most lucrative to pursue.
+      <br></br>
+      This was also done to establish any correlation between starting salary and major. However, there seems to be very little.</p>
       </div>
 
       
@@ -46,7 +48,8 @@ function App() {
       <GroupedBarChart2 />
       <p> The above figure shows a grouped bar chart which displays the modal number of job offers graduates received compared to the number of internships completed.
       <br></br>
-      The graduates were grouped according to their majors in order to give a more objective look at each field of study.</p>
+      The graduates were grouped according to their majors in order to give a more objective look at each field of study.
+      There seems to be no real trends within each group.</p>
       </div>
       
     </div>
