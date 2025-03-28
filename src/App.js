@@ -37,9 +37,9 @@ function App() {
       <div className="scatterplot2">
       <D3ScatterPlot2 />
       <br></br>
-      <p id="scattertext2"> The above figure shows a point diagram which plots students' median starting salary.
+      <p id="scattertext2"> The above figure shows a point diagram which plots students' median starting salary & median mid-career salary against their major.
       <br></br>
-       This was done with the intention of trying to visualize a correlation between student's major and their salary out of school.</p>
+       This was done with the intention of trying to visualize a correlation between student's major and their earnings throughout their career.</p>
       </div>
 
       <div className="stackedbar">
