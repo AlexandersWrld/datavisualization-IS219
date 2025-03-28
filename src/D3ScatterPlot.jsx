@@ -95,7 +95,7 @@ const D3ScatterPlot = () => {
 
   return (
     <div>
-      <h3>Figure 1: A Scatterplot Showing Starting Salaries Compared to Participants' College GPA</h3>
+      <h2>Figure 1: A Scatterplot Showing Starting Salaries Compared to Participants' College GPA</h2>
       {data ? (
         <svg ref={svgRef} style={{ width: "100%", maxWidth: "1200px", height: "800px", border: "1px solid #ccc", background: "#fff"}} />
       ) : (

@@ -12,7 +12,7 @@ function App() {
     <div className="App">
 
     <div className="titleblock">
-    <h2>How do the choices made in one's academic journey impact their career outcomes?</h2>
+    <h1>How do the choices made in one's academic journey impact their career outcomes?</h1>
     <p>In the age of information, the professional landscape has seen much change in the way skills and knowledge are passed on. 
       <br></br>
       In many fields, especially those centered around technology, education is no longer the only ticket in to the professional world. 
