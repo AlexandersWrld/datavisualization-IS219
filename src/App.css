@@ -7,6 +7,7 @@
 
 .App p {
   line-height: 200%;
+  font-size: larger;
 }
 
 .titleblock {
@@ -30,10 +31,24 @@
   color:#fff;
 }
 
+.scatterplot2 {
+  padding-bottom: 3%;
+  padding-top: 2%;
+  background-color: #000000;
+}
+
+.scatterplot2 p{
+  color:#fff;
+}
+
+.scatterplot2 h2{
+  color:#fff;
+}
+
 .stackedbar {
   padding-bottom: 3%;
   padding-top: 3%;
-  background-color:#000000;
+  background-color:#142552;
 }
 
 .stackedbar p{
@@ -47,7 +62,7 @@
 .groupedbar {
   padding-bottom: 5%;
   padding-top: 3%;
-  background-color: #142552;
+  background-color: #000000;
 }
 
 .groupedbar p{

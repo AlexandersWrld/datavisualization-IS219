@@ -1,5 +1,6 @@
 import React from 'react';
 import D3ScatterPlot from './D3ScatterPlot';
+import D3ScatterPlot2 from './D3ScatterPlot2';
 import GroupedBarChart2 from './GroupedBarChart2';
 import StackedBarChart from './StackedBarChart';
 
@@ -33,6 +34,13 @@ function App() {
       There appears to be no correlation between either variable, with statistical outliers at every level.</p>
       </div>
 
+      <div className="scatterplot2">
+      <D3ScatterPlot2 />
+      <br></br>
+      <p id="scattertext2"> The above figure shows a point diagram which plots students' median starting salary.
+      <br></br>
+       This was done with the intention of trying to visualize a correlation between student's major and their salary out of school.</p>
+      </div>
 
       <div className="stackedbar">
       <StackedBarChart />
