@@ -20,10 +20,11 @@ function App() {
       In many fields, especially those centered around technology, education is no longer the only ticket in to the professional world. 
       There are many who believe academia to be optional for entry. In my project, I seek to take an objective look at the data 
       and come to a conclusion on whether or not school is the be-all, end-all for career sucess.</p>
+      <a href="#scatterplot"> ENTER </a>
     </div>
     </div>
       
-      <div className="scatterplot">
+      <div className="scatterplot" id="scatterplot">
       <D3ScatterPlot />
       <br></br>
       <p id="scattertext"> The above figure shows a scatter plot graph which plots students' college GPA against their starting salary.
