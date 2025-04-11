@@ -13,16 +13,15 @@ function App() {
     <div className="App">
 
     <div className="titleblock">
-    <h1>How do the choices made in one's academic journey impact their career outcomes?</h1>
+    <div className="hometext">
+    <h1>Data Vizualisation Project</h1>
+    <h2>How do the choices made in one's academic journey impact their career outcomes?</h2>
     <p>In the age of information, the professional landscape has seen much change in the way skills and knowledge are passed on. 
-      <br></br>
       In many fields, especially those centered around technology, education is no longer the only ticket in to the professional world. 
-      <br></br>
       There are many who believe academia to be optional for entry. In my project, I seek to take an objective look at the data 
-      and come 
-      <br></br>
-      to a conclusion on whether or not school is the be-all, end-all for career sucess.</p>
-      </div>
+      and come to a conclusion on whether or not school is the be-all, end-all for career sucess.</p>
+    </div>
+    </div>
       
       <div className="scatterplot">
       <D3ScatterPlot />

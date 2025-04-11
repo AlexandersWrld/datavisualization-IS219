@@ -11,13 +11,32 @@
 }
 
 .titleblock {
-  padding-bottom: 3%;
-  padding-top: 3%;
+  height: 100vh;
   color: #fff;
   background-color: #000;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url("/public/gradcaps.jpg");
-  background-size: contain;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url("/public/graduation.jpg");
+  background-size: cover;
   background-position: center;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  display: flex;
+}
+
+.titleblock p {
+  font-size: x-large;
+}
+
+.hometext {
+  padding: 8%;
+}
+.hometext h1 {
+  font-size: 300%;
+}
+
+.hometext h2 {
+  font-size: 220%;
 }
 
 .scatterplot {
