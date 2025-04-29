@@ -3,7 +3,7 @@ html {
 }
 
 .App {
-  background-color: #282c34;
+  background: linear-gradient(to bottom, rgb(54, 54, 54), #000000)
 }
 
 /* card structure */ 
@@ -127,7 +127,7 @@ html {
   display: flex;
   gap: 30px; 
   align-items: flex-start;
-  padding: 2%;
+  padding: 3%;
   font-size: larger;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -163,34 +163,6 @@ html {
 
 #BarChart {
   max-width: 85%;
-}
-
-.stackedbar {
-  padding-bottom: 3%;
-  padding-top: 3%;
-  background-color:#142552;
-}
-
-.stackedbar p{
-  color:#fff;
-}
-
-.stackedbar h2{
-  color:#fff;
-}
-
-.groupedbar {
-  padding-bottom: 5%;
-  padding-top: 3%;
-  background-color: #000000;
-}
-
-.groupedbar p{
-  color:#fff;
-}
-
-.groupedbar h2{
-  color:#fff;
 }
 
 .App-logo {

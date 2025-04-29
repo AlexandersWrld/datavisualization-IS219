@@ -1,7 +1,6 @@
 import React from 'react';
 import D3ScatterPlot from './D3ScatterPlot';
 import D3ScatterPlot2 from './D3ScatterPlot2';
-import GroupedBarChart2 from './GroupedBarChart2';
 import StackedBarChart from './StackedBarChart';
 import BarChart from './BarChart';
 
@@ -125,24 +124,17 @@ function App() {
         </div>
         <div className="card-text">
           <h2>Figure 3: Percent Increase from Starting to Mid-Career Salary by Major</h2>
-          <p>The figure on the left shows a scatter plot graph which plots students' college GPA against their starting salary. 
-          This was done with the intention of trying to visualize a correlation between GPA and students' earnings right out of school. </p>
+          <p>The figure on the left is a bar chart displaying the overall percentage increase that graduate salaries saw
+          by their mid-career, arranged according to their major. This was done in an attempt to measure how much growth could
+          typically be expected in each career field. </p>
           <h2>Analysis</h2>
-          <p>There appears to be no correlation between either variable, with statistical outliers at every level.</p>
-          <p>This suggests that grades were not always a factor in career success after graduation.</p>
+          <p>Without the added context from figure 1, a graph like this may be misleading. With the additonal
+          information, however, not only can the magnitude of the growth be assessed, but also the significance of the growth 
+          as it is reflected in real world earning increases.</p>
         </div>
       </div>
 
     </div>
-
-      <div className="stackedbar">
-      <StackedBarChart />
-      <p> The above figure shows a stacked bar chart which displays the total number of graduates in the data set, grouped by salary range and divided by Major.
-      <br></br>
-      This was done with the intention of trying to determine which fields of study were most lucrative to pursue.
-      <br></br>
-      This was also done to establish any correlation between starting salary and major. However, there seems to be very little.</p>
-      </div>
 
     </div>
   );
