@@ -9,7 +9,7 @@ const D3ScatterPlot2 = () => {
   useEffect(() => {
     d3.csv("/degrees-that-pay-back.csv").then((loadedData) => {
       const parsedData = loadedData.map(d => ({
-        major: d["Undergraduate Major"],
+        major: d["Undergraduate_Major"],
         startingSalary: +d["Starting_Median_Salary"].replace(/[$,]/g, ""),
         midCareerSalary: +d["Mid_Career_Median_Salary"].replace(/[$,]/g, "")
       })).sort((a, b) => b.startingSalary - a.startingSalary);
@@ -101,7 +101,6 @@ const D3ScatterPlot2 = () => {
 
   return (
     <div>
-      <h2>Figure 2: Median Starting and Mid-Career Salary by Undergraduate Major</h2>
       {data ? (
         <svg ref={svgRef} style={{ width: "100%", maxWidth: "1400px", height: "1000px", border: "1px solid #ccc", background: "#fff" }} />
       ) : (

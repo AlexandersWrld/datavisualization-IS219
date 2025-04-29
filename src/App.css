@@ -3,16 +3,47 @@ html {
 }
 
 .App {
-  text-align: center;
-  justify-content: center;
-  font-size: larger;
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #282c34;
 }
 
-.App p {
-  line-height: 200%;
-  font-size: larger;
+/* card structure */ 
+
+.card {
+  background: #3c3c3c;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
 }
+
+.card-text {
+  flex: 1 1 20%;
+  color: #ffffff;
+  text-align: left;
+}
+
+.card-graph {
+  flex: 1 1 65%;
+}
+
+.card-graph h2 {
+  color: #fff;
+}
+
+.card-text h2 {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+.card-text p {
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+/* page banner */
 
 .titleblock {
   height: 100vh;
@@ -60,33 +91,62 @@ html {
   font-size: 220%;
 }
 
-.scatterplot {
-  padding-bottom: 3%;
-  padding-top: 2%;
-  background-color: #142552;
+/* section 1 */ 
+
+#section-1 {
+  display: flex;
+  gap: 30px; 
+  align-items: stretch;
+  padding: 2%;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.scatterplot p{
-  color:#fff;
+#section-1 p {
+  font-size: x-large;
 }
 
-.scatterplot h2{
-  color:#fff;
+#scatterplot2 {
+  display: flex;
+  flex: 3.5;
+} 
+
+#keystats {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 4%;
+  
 }
 
-.scatterplot2 {
-  padding-bottom: 3%;
-  padding-top: 2%;
-  background-color: #000000;
+/* section 2 */ 
+
+#section-2 {
+  display: flex;
+  gap: 30px; 
+  align-items: stretch;
+  padding: 2%;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.scatterplot2 p{
-  color:#fff;
+#section-2 p {
+  font-size: x-large;
 }
 
-.scatterplot2 h2{
-  color:#fff;
+#scatterplot {
+  display: flex;
+  flex: 3.5;
 }
+
+#scatterplot-info {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 4%;
+}
+
+/* section 3 */ 
 
 .stackedbar {
   padding-bottom: 3%;
