@@ -5,6 +5,7 @@ import StackedBarChart from './StackedBarChart';
 import BarChart from './BarChart';
 
 
+
 import './App.css';
 
 function App() {
@@ -81,6 +82,25 @@ function App() {
 
     </div>
 
+    <div id="section-3">
+
+    <div className="card" id="BarChart">
+        <div className="card-graph">
+          <BarChart />
+        </div>
+        <div className="card-text">
+          <h2>Figure 2: Percent Increase from Starting to Mid-Career Salary by Major</h2>
+          <p>The figure on the left is a bar chart displaying the overall percentage increase that graduate salaries saw
+          by their mid-career, arranged according to their major. This was done in an attempt to measure how much growth could
+          typically be expected in each career field. </p>
+          <h2>Analysis</h2>
+          <p>Without the added context from figure 1, a graph like this may be misleading. With the additonal
+          information, however, not only can the magnitude of the growth be assessed, but also the significance of the growth 
+          as it is reflected in real world earning increases.</p>
+        </div>
+      </div>
+
+    </div>
 
     <div id="section-2"> 
 
@@ -102,7 +122,7 @@ function App() {
           <D3ScatterPlot />
         </div>
         <div className="card-text">
-          <h2>Figure 2: A Scatterplot Showing Starting Salaries Compared to Participants' College GPA</h2>
+          <h2>Figure 3: A Scatterplot Showing Starting Salaries Compared to Participants' College GPA</h2>
           <p>The figure on the left shows a scatter plot graph which plots students' college GPA against their starting salary. 
           This was done with the intention of trying to visualize a correlation between GPA and students' earnings right out of school. </p>
           <h2>Analysis</h2>
@@ -114,23 +134,20 @@ function App() {
 
       </div>
 
+      <div id="section-4">
 
-
-    <div id="section-3">
-
-    <div className="card" id="BarChart">
+    <div className="card" id="StackedBar">
+  
         <div className="card-graph">
-          <BarChart />
+        <StackedBarChart />
         </div>
         <div className="card-text">
-          <h2>Figure 3: Percent Increase from Starting to Mid-Career Salary by Major</h2>
-          <p>The figure on the left is a bar chart displaying the overall percentage increase that graduate salaries saw
-          by their mid-career, arranged according to their major. This was done in an attempt to measure how much growth could
-          typically be expected in each career field. </p>
+          <h2>Figure 4: A Stacked Bar Chart Showing the Distibution of Graduates by Salary Range</h2>
+          <p>The Figure shows a stacked bar chart which shows varying salary ranges for graduates. The slices bars show the distrubitons of students by major.
+          This was done with the intention of trying to visualize if there was a disproportionate number of any one major in any salary range. </p>
           <h2>Analysis</h2>
-          <p>Without the added context from figure 1, a graph like this may be misleading. With the additonal
-          information, however, not only can the magnitude of the growth be assessed, but also the significance of the growth 
-          as it is reflected in real world earning increases.</p>
+          <p>There appears to be a very balanced distrubition of graduates in each salary range</p>
+          <p>This shows that there are top and also low earners within every major.</p>
         </div>
       </div>
 

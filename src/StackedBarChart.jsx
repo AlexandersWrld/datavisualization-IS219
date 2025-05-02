@@ -118,7 +118,6 @@ const StackedBarChart = ({ csvFile }) => {
 
   return (
     <div>
-      <h2>Figure 3: A Stacked Bar Chart Showing The Total Number of Graduates per Salary Range</h2>
       <svg ref={svgRef} style={{ width: "100%", maxWidth: "1200px", height: "800px", border: "1px solid #ccc", background: "#fff"}}></svg>
     </div>
   );

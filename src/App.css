@@ -165,6 +165,25 @@ html {
   max-width: 85%;
 }
 
+/* section 4 */ 
+
+#section-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1%;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+ }
+
+ #section-4 p {
+  font-size: x-large;
+}
+
+ #StackedBar {
+  max-width: 70%;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
