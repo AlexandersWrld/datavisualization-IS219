@@ -134,7 +134,7 @@ function App() {
 
       </div>
 
-      <div id="section-4">
+    <div id="section-4">
 
     <div className="card" id="StackedBar">
   
@@ -146,8 +146,21 @@ function App() {
           <p>The Figure shows a stacked bar chart which shows varying salary ranges for graduates. The slices bars show the distrubitons of students by major.
           This was done with the intention of trying to visualize if there was a disproportionate number of any one major in any salary range. </p>
           <h2>Analysis</h2>
-          <p>There appears to be a very balanced distrubition of graduates in each salary range</p>
-          <p>This shows that there are top and also low earners within every major.</p>
+          <p>There appears to be a very balanced distrubition of graduates in each salary range.
+          This shows that there are top and also low earners within every major.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div id="section-5">
+
+    <div className="card" id="conlusion">
+        <div className="card-text">
+          <h1>Lessons Learned / Conclusion</h1>
+          <p>The answer to whether or not one's academic choices impact career outcomes is more nuanced than a simple yes or no.
+            The data shown suggests that there are some factors that impact success more than others. Major seemed to be far more
+            impactful to sucess than the grades obtained by students. </p>
         </div>
       </div>
 
