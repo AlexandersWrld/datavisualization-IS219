@@ -35,7 +35,7 @@ html {
 
 .card-text h2 {
   margin-bottom: 1rem;
-  font-size: 1.8rem;
+  font-size: 1.1rem;
 }
 
 .card-text p {
@@ -105,7 +105,7 @@ html {
 }
 
 #section-1 p {
-  font-size: large;
+  font-size: medium;
 }
 
 #scatterplot2 {
@@ -133,7 +133,7 @@ html {
 }
 
 #section-2 p {
-  font-size: large;
+  font-size: medium;
 }
 
 #scatterplot {
@@ -158,7 +158,7 @@ html {
 }
 
 #section-3 p {
-  font-size: large;
+  font-size: medium;
 }
 
 #BarChart {
@@ -177,7 +177,7 @@ html {
  }
 
  #section-4 p {
-  font-size: large;
+  font-size: medium;
 }
 
  #StackedBar {
@@ -194,7 +194,7 @@ html {
  }
 
  #section-5 p {
-  font-size: large;
+  font-size: medium;
 }
 
  #conclusion {
