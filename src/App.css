@@ -121,6 +121,14 @@ html {
   
 }
 
+#keystats p {
+  font-size: medium;
+}
+
+#keystats h3 {
+  font-size: small;
+}
+
 /* section 2 */ 
 
 #section-2 {
@@ -162,7 +170,7 @@ html {
 }
 
 #BarChart {
-  max-width: 85%;
+  max-height: 85%;
 }
 
 /* section 4 */ 
