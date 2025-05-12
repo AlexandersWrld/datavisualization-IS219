@@ -50,8 +50,8 @@ function App() {
 
       <div className="card" id="highest-paid">
         <div className="card-text">
-          <h3>Highest Starting Salary</h3>
-          <h3>$74,300</h3>
+          <h2>Highest Starting Salary</h2>
+          <h2>$74,300</h2>
           <h4>Physician Assistant</h4>
         </div>
       </div>
@@ -74,8 +74,8 @@ function App() {
       
       <div className="card" id="Lowest-midcareer">
         <div className="card-text">
-          <h3>Lowest Mid-Career Salary</h3>
-          <h3>$52,000</h3>
+          <h2>Lowest Mid-Career Salary</h2>
+          <h2>$52,000</h2>
           <h4>Education & Religion &#40;tie&#41; </h4>
         </div>
       </div>
